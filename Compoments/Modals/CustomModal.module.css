@@ -1,0 +1,88 @@
+.modal__body {
+  padding: 30px 70px 30px !important;
+}
+
+.facebook {
+  height: 40px;
+  width: 40px;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 8px;
+  border: 1px solid var(--blue);
+  margin: 0 12px;
+}
+.facebook:active,
+.facebook:hover,
+.google:active,
+.google:hover {
+  opacity: 0.85;
+}
+.txtFacebook,
+.txtGoogle {
+  font-size: 10px;
+  font-weight: var(--font-medium);
+  color: var(--black);
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.google {
+  height: 40px;
+  width: 40px;
+  background-color: #ff2a2abf;
+  color: var(--white);
+  border-radius: 8px;
+  border: 1px solid #ff2a2abf;
+}
+.lineHorizental {
+  height: 66px;
+  width: 1px;
+  background-color: #00000017;
+}
+.continue {
+  color: var(--black);
+  font-weight: var(--font-medium);
+  font-size: var(--font-14);
+}
+.forgotPass {
+  color: var(--black);
+  font-weight: var(--font-medium);
+  font-size: var(--font-14);
+  cursor: pointer;
+}
+.forgotPass:hover{
+  text-decoration: underline;
+}
+.dontHave {
+  color: var(--black);
+  font-weight: var(--font-medium);
+  font-size: var(--font-14);
+}
+.linkTxt {
+  color: var(--primary);
+  cursor: pointer;
+}
+.modal__body h2 {
+  font-size: 30px;
+  font-weight: var(--font-semibold);
+  color: var(--black);
+}
+.modal-content {
+  border-radius: 20px;
+}
+@media (max-width: 991px) {
+  .modal__body {
+    padding:20px 25px !important;
+  }
+  .modal__body h2 {
+    font-size: 22px !important;
+  }
+  .facebook, .google {
+    height: 35px;
+    width: 35px;
+    border-radius: 8px;
+  }
+  .forgotPass, .continue {
+    font-size: var(--font-14);
+  }
+  
+}

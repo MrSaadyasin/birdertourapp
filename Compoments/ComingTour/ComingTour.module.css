@@ -1,0 +1,81 @@
+.coming__tour {
+  /* background-image: url(../../assets/images/backgroungUpCom.png); */
+  height: calc(100vh - 72px);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0 80px 80px;
+  opacity: 1.0;
+-webkit-transition: background 1s linear;
+-moz-transition: background 1s linear;
+-o-transition: background 1s linear;
+-ms-transition: background 1s linear;
+transition: background 1s linear;
+}
+.heart {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+.coming__tour .image {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.coming__tour .upcoming {
+  font-weight: var(--font-semibold);
+  font-size: 36px;
+  color: var(--white);
+}
+.coming__tour .headings {
+  color: var(--white);
+  font-size: 60px;
+  font-weight: var(--font-bold);
+  margin-bottom: 16px;
+}
+.coming__tour .paragraph {
+  color: var(--white);
+  font-size: var(--font-16);
+  font-weight: 400;
+  margin-bottom: 16px;
+  width: 85%;
+  margin-bottom: 80px;
+}
+
+.button,
+.button:hover,
+.button:active {
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: var(--font-18);
+  font-weight: var(--font-medium);
+  padding: 4px 30px;
+  height: 48px;
+  border-radius: 12px;
+  gap: 10px;
+  border: 1px solid var(--primary);
+}
+.button:hover,
+.button:active {
+  opacity: 0.85;
+}
+
+
+@media(max-width: 991px){
+  .coming__tour{
+    padding: 70px 20px 20px;
+    height: auto;
+  }
+  .coming__tour .upcoming{
+    font-size: 28px;
+  }
+  .coming__tour .headings{
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  .coming__tour .paragraph{
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}

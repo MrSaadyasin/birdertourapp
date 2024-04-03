@@ -1,0 +1,121 @@
+.footer__section {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 60px 60px 35px;
+}
+.footer__section .footer__heading h2 {
+  font-size: var(--font-40);
+  font-weight: 500;
+  margin-bottom: 56px;
+}
+
+.footer__section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer__section li {
+  margin-bottom: 16px;
+}
+.footer__section li:first-child a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: var(--font-15);
+  font-family: 400;
+}
+.footer__section li {
+  margin-bottom: 12px;
+}
+.footer__section li a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: var(--font-15);
+  font-weight: 400;
+}
+.footer__copyright {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: var(--font-15);
+}
+
+@media (max-width: 991px) {
+  .footer__section {
+    padding: 35px 25px;
+  }
+  .footer__section li {
+    margin-bottom: 6px;
+  }
+  .footer__section ul {
+    margin-bottom: 0;
+  }
+  .footer__copyright {
+    margin-top: 30px;
+  }
+  .footer__section li:first-child {
+    color: var(--white);
+    text-decoration: none;
+    font-size: var(--font-14);
+    font-family: "Monserrat-Regular";
+    margin-bottom: 6px;
+  }
+  .footer__section .footer__heading h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-family: "Monserrat-Regular", sans-serif;
+  }
+  .footer__copyright {
+    margin-left: 0;
+    font-size: var(--font-14);
+  }
+  .footer__section li:first-child a {
+    font-size: 14px;
+    font-family: "Monserrat-Regular", sans-serif;
+  }
+  .footer__section li a {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 1121px) {
+  .footer__section {
+    padding: 35px 25px;
+  }
+  .footer__section li {
+    margin-bottom: 6px;
+  }
+  .footer__section ul {
+    margin-bottom: 0;
+  }
+  .footer__copyright {
+    margin-top: 30px;
+  }
+  .footer__section li:first-child {
+    color: var(--white);
+    text-decoration: none;
+    font-size: var(--font-14);
+    font-family: "Monserrat-Regular";
+    margin-bottom: 6px;
+  }
+  .footer__section .footer__heading h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-family: "Monserrat-Regular", sans-serif;
+  }
+  .footer__copyright {
+    margin-left: 0;
+    font-size: var(--font-14);
+  }
+  .footer__section li:first-child a {
+    font-size: 14px;
+    font-family: "Monserrat-Regular", sans-serif;
+  }
+  .footer__section li a {
+    font-size: 14px;
+  }
+}
